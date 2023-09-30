@@ -73,7 +73,6 @@ function ContactUs() {
                       onChange={(e) => setName(e.target.value)}
                     />
                   </div>
-                  console.log({name});
                   <div className="flex-1">
                     <Form.Label className="text-[16px] font-medium">
                       Email

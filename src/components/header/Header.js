@@ -125,7 +125,7 @@ function Header() {
                             onClick={() => handleEditUser(user)}
                             className="nav-link wecome_user italic"
                           >
-                            Welcome {user.email}
+                            Welcome {user.username}
                           </span>
                         </div>
                       </>
