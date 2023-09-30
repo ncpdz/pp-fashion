@@ -68,7 +68,7 @@ const Register = () => {
                         placeholder="Enter password"
                         value={pass_word}
                         onKeyPress={handleKeyPress}
-                        onChange={(event) => set_pass_word(event.tưarget.value)}
+                        onChange={(event) => set_pass_word(event.target.value)}
                     />
                     <i className={isShowPassWord === true ? "fa-solid fa-eye" : "fa-solid fa-eye-slash"}
                         onClick={() => setIsShowPassWord(!isShowPassWord)}
