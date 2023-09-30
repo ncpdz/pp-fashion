@@ -58,14 +58,14 @@ const Register = () => {
             <div className="login-container col-12 col-sm-4 ">
                 <div className="title">Register</div>
                 <div className="text">New user</div>
-                <input id="text-email" type="email" placeholder="enter email"
+                <input id="text-email" type="email" placeholder="Enter email"
                     value={e_mail}
                     onKeyPress={handleKeyPress}
                     onChange={(event) => set_e_mail(event.target.value)}
                 />
                 <div className="input-pass">
                     <input id="text-email" type={isShowPassWord === true ? "text" : "password"}
-                        placeholder="enter password"
+                        placeholder="Enter password"
                         value={pass_word}
                         onKeyPress={handleKeyPress}
                         onChange={(event) => set_pass_word(event.tưarget.value)}
@@ -74,17 +74,17 @@ const Register = () => {
                         onClick={() => setIsShowPassWord(!isShowPassWord)}
                     ></i>
                 </div >
-                <input id="text-email" type="text" placeholder="enter name"
+                <input id="text-email" type="text" placeholder="Enter name"
                     value={name}
                     onKeyPress={handleKeyPress}
                     onChange={(event) => setName(event.target.value)}
                 />
-                <input id="text-email" type="number" placeholder="enter phone"
+                <input id="text-email" type="number" placeholder="Enter phone"
                     value={p_hone}
                     onKeyPress={handleKeyPress}
                     onChange={(event) => set_p_phone(event.target.value)}
                 />
-                <input id="text-email" type="text" placeholder="enter address"
+                <input id="text-email" type="text" placeholder="Enter address"
                     value={a_ddress}
                     onKeyPress={handleKeyPress}
                     onChange={(event) => set_a_ddress(event.target.value)}

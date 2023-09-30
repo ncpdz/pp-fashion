@@ -33,7 +33,7 @@ function ModalView(props) {
           <div className="info-container">
             <p><strong>Name:</strong> {name}</p>
             <p><strong>Price:</strong> {price}</p>
-            <p><strong>Type:</strong> {typename}</p>
+            <p><strong>Type:</strong> <span className='uppercase'>{typename}</span></p>
           </div>
         </div>
       </Modal.Body>

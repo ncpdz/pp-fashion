@@ -72,7 +72,7 @@ const Login = () => {
         <input
           id="text-email"
           type="text"
-          placeholder="enter email"
+          placeholder="Enter email"
           value={e_mail}
           onKeyPress={handleKeyPress}
           onChange={(event) => set_e_mail(event.target.value)}
@@ -81,7 +81,7 @@ const Login = () => {
           <input
             id="text-email"
             type={isShowPassWord === true ? "text" : "password"}
-            placeholder="enter password"
+            placeholder="Enter password"
             value={pass_word}
             onKeyPress={handleKeyPress}
             onChange={(event) => set_pass_word(event.target.value)}
